@@ -1,0 +1,38 @@
+:root{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+}
+
+.top{
+    background: transparent;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/background1.png");
+}
+.myself{
+    background: rgba(0, 255, 0, 0.2);
+    width: 62.5%;
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
+    border-style: solid;
+    border-radius: 8px;
+}
+.buttons{
+    background: rgba(0, 255, 0, 0.2);
+    width: 23%;
+    height: 800px;
+    margin-right: 20px;
+    color: rgb(0, 255, 0);
+    border-style: solid;
+    border-radius: 8px;
+}
